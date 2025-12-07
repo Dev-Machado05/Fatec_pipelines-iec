@@ -1,0 +1,11 @@
+# Estrutura basica pipeline
+on: push
+jobs: 
+  estrutura_pipeline: # Chave inventada do job 
+    
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Olá, Fatec!"
+      
+      
