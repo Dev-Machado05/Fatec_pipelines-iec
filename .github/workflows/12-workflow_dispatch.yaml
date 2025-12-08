@@ -2,9 +2,9 @@ name: Github Actioms - Workflow Dispatch Template
 run-name: Running - ${{ github.event_name }}
 on: [workflow_dispatch]
 
-jobs: 
-    on-workflow_dispatch:
-        runs-on: ubuntu-latest
-        steps: 
-          - name: Comentario
-            run: echo "Comentario WORKFLOW DISPATCH - Basico"
+jobs:
+  on-workflow_dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comentario
+        run: echo "Comentario WORKFLOW DISPATCH - Basico"
