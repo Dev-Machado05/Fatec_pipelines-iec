@@ -1,0 +1,18 @@
+name: Workflow Dispatch Template
+run-name: Running - ${{github.event_name}}
+
+on:
+  workflow_dispatch:
+    inputs:
+      resposta:
+        description: Mensagem de descrição!
+        type: boolean
+
+jobs:
+    on-workflow_dispatch: 
+        runs-on: ubuntu-latest
+        steps: 
+          - name: Comenáario
+            run: |
+                echo "Comentário WORKFLOW DISPATCH - Booleano"
+                echo "resposta do input: ${{inputs.resposta}}"
