@@ -4,7 +4,7 @@ on:
     workflow_dispatch:
         inputs: 
             serie: 
-                description: Digite sua série favorita
+                description: Escreva algo!
                 type: string
 jobs: 
     on-workflow_dispatch: 
@@ -13,4 +13,4 @@ jobs:
           - name: Comentario
             run: | 
                 echo "Comentário WORKFLOW DISPATCH"
-                echo "Minha Série Favorita: ${{inputs.serie}}" 
+                echo "Você escreveu: ${{inputs.serie}}" 

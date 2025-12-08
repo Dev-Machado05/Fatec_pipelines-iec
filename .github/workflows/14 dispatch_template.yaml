@@ -12,7 +12,7 @@ jobs:
     on-workflow_dispatch: 
         runs-on: ubuntu-latest
         steps: 
-          - name: Comenáario
+          - name: Comentário
             run: |
                 echo "Comentário WORKFLOW DISPATCH - Booleano"
                 echo "resposta do input: ${{inputs.resposta}}"
