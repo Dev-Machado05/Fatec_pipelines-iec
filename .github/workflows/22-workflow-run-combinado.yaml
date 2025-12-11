@@ -1,0 +1,13 @@
+name: Workflow run Requested Template
+run-name: Running - Workdflow run Requested Template
+on: 
+    workflow_run: 
+        workflows: [Complete, Trigger]
+        types: [requested]
+
+jobs: 
+    quando_Trigger_for_disparado: 
+        runs-on: ubuntu-latest
+        steps: 
+          - name: Comentário
+            run: echo "workflow run Requested foi trigado." 
