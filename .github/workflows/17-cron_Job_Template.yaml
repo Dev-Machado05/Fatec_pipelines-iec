@@ -3,9 +3,9 @@ run-name: Running - ${{github.event_name}}
 on: 
     schedule:
         - cron: '30 5 * * 1,3' # 5:30 nas segundas e quartas
-        - cron: '0 19 * * 2' # 19:00 nas terças
+        - cron: '0 19 * * 2'   # 19:00 nas terças
         - cron: '59 23 31 12 *'  # 23:59 no dia 31 de dezembro
-        - cron: '55 * * * *' 
+        - cron: '25 12 * * *'  # 14:55 nas sextas (corrigido) 
 
 jobs: 
     teste_schedule: 
