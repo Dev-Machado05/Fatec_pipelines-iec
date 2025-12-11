@@ -1,0 +1,12 @@
+name: workflow run Basic Template
+run-name: Running - workflow run basic Template
+on: 
+    workflow_run: 
+        workflows: [Trigger]
+
+jobs: 
+    quando_Trigger_for_disparado:
+        runs-on: ubuntu-latest
+        steps: 
+          - name: Comentário
+            run: echo "workflow run basic foi trigado."
