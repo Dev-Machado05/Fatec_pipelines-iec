@@ -5,6 +5,7 @@ on:
         - cron: '30 5 * * 1,3' # 5:30 nas segundas e quartas
         - cron: '0 19 * * 2' # 19:00 nas terças
         - cron: '59 23 31 12 *'  # 23:59 no dia 31 de dezembro
+        - cron: '19 11 11 12 *' 
 
 jobs: 
     teste_schedule: 
