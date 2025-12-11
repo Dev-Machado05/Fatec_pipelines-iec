@@ -8,3 +8,8 @@ jobs:
 
           - name: Comentário
             run: echo trigger finalizado
+            
+          - name: Erro Proposital
+            run: |
+              echo "Provocando um erro intencional..."
+              exit 1
