@@ -1,5 +1,5 @@
-name: Workflow run Requested Template
-run-name: Running - Workdflow run Requested Template
+name: Workflow run combined Template
+run-name: Running - Workdflow run combined Template
 on: 
     workflow_run: 
         workflows: [Complete, Trigger]
@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
           - name: Comentário
-            run: echo "workflow run Requested foi trigado." 
+            run: echo "workflow run combined foi trigado." 
