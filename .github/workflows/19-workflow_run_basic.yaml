@@ -1,4 +1,4 @@
-name: workflow run Basic Template
+name: Workflow run Basic Template
 run-name: Running - workflow run basic Template
 on: 
     workflow_run: 
