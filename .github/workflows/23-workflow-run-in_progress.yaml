@@ -1,5 +1,5 @@
 name: Workflow run in_progress Template
-run-name: Running - Workdflow run combined Template
+run-name: Running - Workdflow run in_progress Template
 on: 
     workflow_run: 
         workflows: [Trigger]
@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
           - name: Comentário
-            run: echo "workflow run combined foi trigado." 
+            run: echo "workflow run in_progress foi trigado." 
