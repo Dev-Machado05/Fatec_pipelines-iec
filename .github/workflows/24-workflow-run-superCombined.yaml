@@ -1,0 +1,13 @@
+name: Workflow run superCombined Template
+run-name: Running - Workdflow run superCombined Template
+on: 
+    workflow_run: 
+        workflows: [Trigger]
+        types: [requested, in_progress, completed]
+
+jobs: 
+    quando_Trigger_for_disparado: 
+        runs-on: ubuntu-latest
+        steps: 
+          - name: Comentário
+            run: echo "workflow run superCombined foi trigado." 
