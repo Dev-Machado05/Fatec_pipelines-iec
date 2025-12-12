@@ -22,7 +22,8 @@ jobs:
           node-version: 22
 
       - name: Passo 3 - Task de Install Dependencias
-        run: npm ci
+        run: echo "npm ci DESABILITADO!"
+        #run: npm ci
 
       - name: Passo 4 - Task de Run Testes
         run: npm run test
