@@ -1,4 +1,4 @@
-name: Workflow run combined Template
+name: Workflow run in_progress Template
 run-name: Running - Workdflow run combined Template
 on: 
     workflow_run: 
