@@ -2,8 +2,8 @@ name: Workflow run combined Template
 run-name: Running - Workdflow run combined Template
 on: 
     workflow_run: 
-        workflows: [Complete, Trigger]
-        types: [requested]
+        workflows: [Trigger]
+        types: [requested, completed]
 
 jobs: 
     quando_Trigger_for_disparado: 
